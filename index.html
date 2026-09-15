@@ -15,6 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="enhancements.css">
   <script type="application/ld+json">
   {"@context":"https://schema.org","@type":"AutomotiveBusiness","name":"Newton Autoservice","url":"https://internationaledge1-prog.github.io/newton-autoservice/","telephone":"+3904341801744","address":{"@type":"PostalAddress","streetAddress":"Via Isonzo, 65","postalCode":"33076","addressLocality":"Pravisdomini","addressRegion":"PN","addressCountry":"IT"},"contactPoint":[{"@type":"ContactPoint","telephone":"+3904341801744","contactType":"customer service"},{"@type":"ContactPoint","telephone":"+393894449808","contactType":"information"}]}
   </script>
@@ -33,7 +34,10 @@
       <a href="#contatti" data-i18n="nav.contact">Contatti</a>
     </nav>
     <div class="header-actions">
-      <button class="language-switch" type="button" aria-label="Change language"><span aria-hidden="true">◎</span> <b id="lang-label">EN</b></button>
+      <div class="language-switch" role="group" aria-label="Seleziona lingua">
+        <button type="button" data-lang="it" aria-label="Italiano">IT</button>
+        <button type="button" data-lang="en" aria-label="English">EN</button>
+      </div>
       <a class="button button-gold header-cta" href="#contatti" data-i18n="nav.cta">Contattaci</a>
     </div>
   </header>
@@ -65,13 +69,13 @@
         <p data-i18n="services.intro">Sette specialità, un solo partner. Soluzioni complete per te e per la tua automobile.</p>
       </div>
       <div class="service-grid">
-        <button class="service-card" data-service="rental" style="--image:url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">01</span><span class="service-name" data-i18n="service.rental">Noleggio</span><span class="service-arrow">↗</span></button>
-        <button class="service-card" data-service="sales" style="--image:url('https://images.unsplash.com/photo-1562141961-b5d1c7b085ac?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">02</span><span class="service-name" data-i18n="service.sales">Vendita auto</span><span class="service-arrow">↗</span></button>
-        <button class="service-card" data-service="transport" style="--image:url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">03</span><span class="service-name" data-i18n="service.transport">Trasporto merci</span><span class="service-arrow">↗</span></button>
-        <button class="service-card" data-service="roadside" style="--image:url('https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">04</span><span class="service-name" data-i18n="service.roadside">Soccorso stradale</span><span class="service-arrow">↗</span></button>
-        <button class="service-card" data-service="workshop" style="--image:url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">05</span><span class="service-name" data-i18n="service.workshop">Autofficina</span><span class="service-arrow">↗</span></button>
-        <button class="service-card" data-service="parts" style="--image:url('https://images.unsplash.com/photo-1580894908361-967195033215?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">06</span><span class="service-name" data-i18n="service.parts">Autoricambi</span><span class="service-arrow">↗</span></button>
-        <button class="service-card" data-service="tyres" style="--image:url('https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">07</span><span class="service-name" data-i18n="service.tyres">Gommista</span><span class="service-arrow">↗</span></button>
+        <a class="service-card" href="servizio.html?tipo=rental" style="--image:url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">01</span><span class="service-name" data-i18n="service.rental">Noleggio</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="servizio.html?tipo=sales" style="--image:url('https://images.unsplash.com/photo-1562141961-b5d1c7b085ac?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">02</span><span class="service-name" data-i18n="service.sales">Vendita auto</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="servizio.html?tipo=transport" style="--image:url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">03</span><span class="service-name" data-i18n="service.transport">Trasporto merci</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="servizio.html?tipo=roadside" style="--image:url('https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">04</span><span class="service-name" data-i18n="service.roadside">Soccorso stradale</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="servizio.html?tipo=workshop" style="--image:url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">05</span><span class="service-name" data-i18n="service.workshop">Autofficina</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="servizio.html?tipo=parts" style="--image:url('https://images.unsplash.com/photo-1580894908361-967195033215?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">06</span><span class="service-name" data-i18n="service.parts">Autoricambi</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="servizio.html?tipo=tyres" style="--image:url('https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">07</span><span class="service-name" data-i18n="service.tyres">Gommista</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
         <a class="service-cta" href="#contatti"><span>↗</span><strong data-i18n="services.cta">Parliamo della tua esigenza</strong></a>
       </div>
     </section>
@@ -118,13 +122,6 @@
 
   <a class="floating-whatsapp" href="https://wa.me/3904341801744" target="_blank" rel="noopener" aria-label="WhatsApp Newton">◉</a>
 
-  <dialog class="service-dialog" id="service-dialog">
-    <button class="dialog-close" type="button" aria-label="Chiudi">×</button>
-    <p class="kicker" id="dialog-kicker">SERVIZIO</p>
-    <h2 id="dialog-title"></h2>
-    <p id="dialog-copy"></p>
-    <div class="dialog-actions"><a class="button button-gold" href="tel:+3904341801744" data-i18n="dialog.call">Chiamaci</a><a class="button button-outline" href="https://wa.me/3904341801744" target="_blank" rel="noopener">WhatsApp</a></div>
-  </dialog>
   <script src="script.js"></script>
 </body>
 </html>

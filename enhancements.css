@@ -1,0 +1,47 @@
+.language-switch{display:flex;align-items:center;height:48px;min-width:0;padding:4px;border:1px solid #494a49;border-radius:99px;background:#111212;cursor:default}
+.language-switch button{width:43px;height:38px;border:0;border-radius:99px;background:transparent;color:#a9a69f;font-weight:800;cursor:pointer;transition:.2s}
+.language-switch button:hover{color:#fff}
+.language-switch button.active{background:var(--gold);color:#111}
+.service-card{justify-content:flex-start;isolation:isolate}
+.service-card:focus-visible{outline:3px solid var(--gold2);outline-offset:4px}
+.service-card:after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(255,255,255,.05);pointer-events:none}
+.service-card .service-name{margin-top:auto}
+.service-button{position:relative;display:flex;align-items:center;justify-content:space-between;gap:18px;margin-top:20px;padding-top:18px;border-top:1px solid rgba(255,255,255,.26);font-size:14px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+.service-button b{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:#111;font-size:20px;transition:transform .2s}
+.service-card:hover .service-button b{transform:translate(3px,-3px)}
+.inner-header{position:relative}
+.inner-header .brand{min-width:max-content}
+.service-page-main{overflow:hidden}
+.service-page-hero{position:relative;min-height:620px;display:flex;align-items:flex-end;background-image:linear-gradient(90deg,rgba(4,5,5,.96),rgba(4,5,5,.26)),var(--service-image);background-position:center;background-size:cover}
+.service-page-hero .hero-content{padding-bottom:90px}
+.back-link{display:inline-flex;align-items:center;gap:10px;color:#dedbd4;font-weight:700;margin-bottom:40px}
+.back-link:hover{color:var(--gold2)}
+.service-page-hero h1{font-size:clamp(68px,9vw,145px);max-width:1100px}
+.service-page-hero .hero-copy{max-width:720px}
+.service-detail{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}
+.service-detail-copy{position:sticky;top:140px}
+.service-detail-copy h2{font-size:clamp(50px,5vw,76px)}
+.service-detail-copy>p{font-size:20px;color:var(--muted)}
+.service-detail-list{list-style:none;margin:34px 0 0;padding:0}
+.service-detail-list li{display:flex;gap:14px;padding:18px 0;border-top:1px solid var(--line);font-weight:700}
+.service-detail-list li:before{content:"✓";color:var(--gold2)}
+.gallery-label{margin-bottom:22px}
+.service-gallery{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.service-gallery figure{margin:0;min-height:300px;border-radius:24px;overflow:hidden;border:1px solid var(--line);background:#151616}
+.service-gallery figure:first-child{grid-column:1/-1;min-height:520px}
+.service-gallery a{display:block;height:100%;min-height:inherit}
+.service-gallery img{display:block;width:100%;height:100%;min-height:inherit;object-fit:cover;transition:transform .5s}
+.service-gallery figure:hover img{transform:scale(1.025)}
+.detail-contact{max-width:calc(var(--max) - 8vw);margin:0 auto 120px;padding:clamp(36px,6vw,80px);border-radius:var(--radius);background:linear-gradient(135deg,#f7a000,#ffbe32);color:#111;display:grid;grid-template-columns:1fr auto;align-items:end;gap:30px}
+.detail-contact h2{font-family:Oswald,Arial,sans-serif;font-size:clamp(48px,6vw,84px);line-height:1;margin:0 0 20px}
+.detail-contact p{max-width:700px;margin:0;font-size:19px}
+.detail-contact-actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:flex-end}
+.detail-contact .button{background:#101111;color:#fff}
+.detail-contact .button.whatsapp{background:#148d47}
+.more-services{padding-top:0}
+.more-services h2{font-size:clamp(48px,5vw,72px);margin-bottom:35px}
+.more-links{display:flex;gap:12px;flex-wrap:wrap}
+.more-links a{padding:14px 20px;border:1px solid #3c3d3c;border-radius:99px;font-weight:700;color:#dedbd4}
+.more-links a:hover{border-color:var(--gold);color:var(--gold2)}
+@media(max-width:980px){.service-detail{grid-template-columns:1fr}.service-detail-copy{position:static}.detail-contact{margin-left:20px;margin-right:20px;grid-template-columns:1fr}.detail-contact-actions{justify-content:flex-start}}
+@media(max-width:620px){.language-switch{height:42px;padding:3px}.language-switch button{width:35px;height:34px;font-size:13px}.inner-header .brand small{display:none}.service-page-hero{min-height:610px}.service-page-hero .hero-content{padding:70px 20px}.service-page-hero h1{font-size:64px}.service-detail{gap:45px}.service-gallery{grid-template-columns:1fr}.service-gallery figure,.service-gallery figure:first-child{grid-column:auto;min-height:270px}.detail-contact{margin-bottom:85px}.detail-contact-actions .button{width:100%}}

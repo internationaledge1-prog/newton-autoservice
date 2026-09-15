@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Servizio | Newton Autoservice</title>
+  <meta name="description" content="Scopri i servizi Newton Autoservice a Pravisdomini e contattaci per informazioni.">
+  <meta name="theme-color" content="#090a0a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="enhancements.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Vai al contenuto</a>
+  <header class="site-header inner-header" id="top">
+    <a class="brand" href="index.html" aria-label="Newton Autoservice home">
+      <img src="assets/newton-mark.png" alt="Logo Newton Autoservice" width="70" height="66">
+      <span><strong>Newton</strong><small>AUTOSERVICE</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Apri menu"><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Navigazione principale">
+      <a href="index.html#servizi" data-i18n="nav.services">Servizi</a>
+      <a href="index.html#chi-siamo" data-i18n="nav.about">Chi siamo</a>
+      <a href="index.html#contatti" data-i18n="nav.contact">Contatti</a>
+    </nav>
+    <div class="header-actions">
+      <div class="language-switch" role="group" aria-label="Seleziona lingua">
+        <button type="button" data-lang="it" aria-label="Italiano">IT</button>
+        <button type="button" data-lang="en" aria-label="English">EN</button>
+      </div>
+      <a class="button button-gold header-cta" href="tel:+3904341801744" data-i18n="nav.cta">Contattaci</a>
+    </div>
+  </header>
+
+  <main id="main" class="service-page-main">
+    <section class="service-page-hero" id="service-hero">
+      <div class="hero-content">
+        <a class="back-link" href="index.html#servizi"><span>←</span><span data-i18n="back">Tutti i servizi</span></a>
+        <div class="eyebrow"><span></span><span>NEWTON AUTOSERVICE</span></div>
+        <h1 id="service-title">Servizio</h1>
+        <p class="hero-copy" id="service-lead"></p>
+        <div class="hero-buttons">
+          <a class="button button-gold" href="https://wa.me/3904341801744" target="_blank" rel="noopener"><span data-i18n="whatsapp">Scrivici su WhatsApp</span><span>↗</span></a>
+          <a class="button button-outline" href="tel:+3904341801744"><span>☎</span><span data-i18n="call">Chiama ora</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section service-detail">
+      <div class="service-detail-copy">
+        <p class="kicker" data-i18n="detail.kicker">IL SERVIZIO</p>
+        <h2 id="detail-title">Come possiamo aiutarti</h2>
+        <p id="service-description"></p>
+        <ul class="service-detail-list" id="service-features"></ul>
+      </div>
+      <div>
+        <p class="kicker gallery-label" data-i18n="gallery">GALLERIA</p>
+        <div class="service-gallery" id="service-gallery"></div>
+      </div>
+    </section>
+
+    <section class="detail-contact">
+      <div>
+        <h2 data-i18n="contact.title">Hai bisogno di questo servizio?</h2>
+        <p data-i18n="contact.copy">Parla direttamente con Newton Autoservice. Ti daremo tutte le informazioni necessarie.</p>
+      </div>
+      <div class="detail-contact-actions">
+        <a class="button whatsapp" href="https://wa.me/3904341801744" target="_blank" rel="noopener"><span data-i18n="whatsapp">Scrivici su WhatsApp</span></a>
+        <a class="button" href="tel:+3904341801744"><span data-i18n="call">Chiama ora</span></a>
+      </div>
+    </section>
+
+    <section class="section more-services">
+      <p class="kicker" data-i18n="more.kicker">ALTRI SERVIZI</p>
+      <h2 data-i18n="more.title">Scopri anche</h2>
+      <div class="more-links" id="more-links"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="index.html"><img src="assets/newton-mark.png" alt="" width="54" height="51"><span><strong>Newton</strong><small>AUTOSERVICE</small></span></a>
+    <p data-i18n="footer">Servizi automotive e trasporto a Pravisdomini.</p>
+    <p>© <span id="year"></span> Newton Autoservice</p>
+  </footer>
+  <a class="floating-whatsapp" href="https://wa.me/3904341801744" target="_blank" rel="noopener" aria-label="WhatsApp Newton">◉</a>
+  <script src="service.js"></script>
+</body>
+</html>
