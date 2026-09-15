@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://internationaledge1-prog.github.io/newton-autoservice/sitemap.xml
+Sitemap: https://newtonvts.it/sitemap.xml
