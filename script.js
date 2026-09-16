@@ -29,7 +29,7 @@ const translations = {
     "faq.threeQ": "Dove si trova la sede?", "faq.threeA": "Siamo in Via Isonzo 65, 33076 Pravisdomini (PN).",
     "contact.title": "Parliamo della tua esigenza.", "contact.copy": "Chiamaci, scrivici su WhatsApp o vieni a trovarci a Pravisdomini.",
     "contact.addressLabel": "INDIRIZZO", "contact.primary": "NUMERO PRINCIPALE E WHATSAPP", "contact.info": "INFORMAZIONI",
-    "contact.whatsapp": "Scrivici su WhatsApp", "contact.call": "Chiama ora", "footer.copy": "Servizi automotive e trasporto a Pravisdomini."
+    "contact.whatsapp": "Scrivici su WhatsApp", "contact.call": "Chiama ora", "contact.directions": "Apri in Google Maps", "footer.copy": "Servizi automotive e trasporto a Pravisdomini."
   },
   en: {
     "nav.services": "Services", "nav.about": "About us", "nav.contact": "Contact", "nav.cta": "Contact us",
@@ -61,7 +61,7 @@ const translations = {
     "faq.threeQ": "Where are you located?", "faq.threeA": "We are at Via Isonzo 65, 33076 Pravisdomini (PN), Italy.",
     "contact.title": "Let’s talk about what you need.", "contact.copy": "Call us, message us on WhatsApp or visit us in Pravisdomini.",
     "contact.addressLabel": "ADDRESS", "contact.primary": "PRIMARY NUMBER & WHATSAPP", "contact.info": "INFORMATION",
-    "contact.whatsapp": "Message us on WhatsApp", "contact.call": "Call now", "footer.copy": "Automotive and transport services in Pravisdomini."
+    "contact.whatsapp": "Message us on WhatsApp", "contact.call": "Call now", "contact.directions": "Get directions", "footer.copy": "Automotive and transport services in Pravisdomini."
   }
 };
 
