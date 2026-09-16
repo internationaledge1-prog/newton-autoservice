@@ -79,7 +79,7 @@ function renderService() {
   const emailBody = language === "it"
     ? `Buongiorno Newton Autoservice,\n\nvorrei ricevere informazioni sul servizio ${content.title}.\n\nGrazie.`
     : `Hello Newton Autoservice,\n\nI would like more information about ${content.title}.\n\nThank you.`;
-  document.getElementById("service-email").href = `mailto:info@newtonvts.it?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+  document.getElementById("service-email").href = `https://mail.google.com/mail/?view=cm&fs=1&to=info%40newtonvts.it&su=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
   document.getElementById("service-features").replaceChildren(...content.features.map((feature) => {
     const item = document.createElement("li"); item.textContent = feature; return item;
   }));
