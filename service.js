@@ -90,6 +90,13 @@ function renderService() {
     const link = document.createElement("a"); link.href = `servizio.html?tipo=${key}`; link.textContent = `${value[language].title} ↗`; return link;
   }));
   document.title = `${content.title} | Newton Autoservice`;
+  const description = `${content.lead} ${content.description}`;
+  const canonical = `https://newtonvts.it/servizio.html?tipo=${type}`;
+  document.querySelector('meta[name="description"]').setAttribute("content", description);
+  document.querySelector('meta[property="og:title"]').setAttribute("content", `${content.title} | Newton Autoservice`);
+  document.querySelector('meta[property="og:description"]').setAttribute("content", description);
+  document.querySelector('meta[property="og:url"]').setAttribute("content", canonical);
+  document.querySelector('link[rel="canonical"]').setAttribute("href", canonical);
 }
 
 function applyLanguage(lang) {
