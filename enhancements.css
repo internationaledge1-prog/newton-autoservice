@@ -47,6 +47,7 @@
 @media(max-width:620px){.language-switch{height:42px;padding:3px}.language-switch button{width:35px;height:34px;font-size:13px}.inner-header .brand small{display:none}.service-page-hero{min-height:610px}.service-page-hero .hero-content{padding:70px 20px}.service-page-hero h1{font-size:64px}.service-detail{gap:45px}.service-gallery{grid-template-columns:1fr}.service-gallery figure,.service-gallery figure:first-child{grid-column:auto;min-height:270px}.detail-contact{margin-bottom:85px}.detail-contact-actions .button{width:100%}}
 
 /* Homepage refinement */
+.hero{background-image:url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2200&q=88')}
 #servizi,#chi-siamo,#contatti,#come-funziona{scroll-margin-top:110px}
 .service-summary{position:relative;color:#d8d5cf;font-size:15px;line-height:1.5;margin-top:8px;max-width:34ch}
 .process-section{padding-top:30px}

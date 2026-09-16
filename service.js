@@ -23,8 +23,8 @@ const services = {
     en:{title:"Vehicle rental",lead:"Mobility solutions for individuals, professionals and businesses.",description:"Contact us to learn about available vehicles, terms and the solution best suited to your needs.",features:["Clear availability information","Solutions for different needs","Direct contact with Newton"]}
   },
   sales: {
-    image:"https://images.unsplash.com/photo-1562141961-b5d1c7b085ac?auto=format&fit=crop&w=2200&q=88",
-    photos:["photo-1562141961-b5d1c7b085ac","photo-1519641471654-76ce0107ad1b","photo-1492144534655-ae79c964c9d7"],
+    image:"https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=2200&q=88",
+    photos:["photo-1492144534655-ae79c964c9d7","photo-1542282088-72c9c27ed0cd","photo-1550355291-bbee04a92027"],
     it:{title:"Vendita auto",lead:"Supporto diretto nella scelta del tuo prossimo veicolo.",description:"Scopri le proposte disponibili e parla con noi per ricevere informazioni sul veicolo che ti interessa.",features:["Veicoli consultabili con semplicità","Informazioni prima dell’acquisto","Assistenza diretta nella scelta"]},
     en:{title:"Vehicle sales",lead:"Direct support when choosing your next vehicle.",description:"Explore the available vehicles and speak with us for information about the one that interests you.",features:["Easy-to-view vehicles","Information before purchase","Direct help with your choice"]}
   },
