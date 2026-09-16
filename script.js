@@ -27,8 +27,8 @@ const translations = {
     "faq.oneQ": "Quali servizi offre Newton?", "faq.oneA": "Noleggio, vendita auto, trasporto merci, soccorso stradale, autofficina, autoricambi e gommista.",
     "faq.twoQ": "Come posso richiedere informazioni?", "faq.twoA": "Puoi chiamare il numero principale oppure scriverci direttamente su WhatsApp.",
     "faq.threeQ": "Dove si trova la sede?", "faq.threeA": "Siamo in Via Isonzo 65, 33076 Pravisdomini (PN).",
-    "contact.title": "Parliamo della tua esigenza.", "contact.copy": "Chiamaci, scrivici su WhatsApp o vieni a trovarci a Pravisdomini.",
-    "contact.addressLabel": "INDIRIZZO", "contact.primary": "NUMERO PRINCIPALE E WHATSAPP", "contact.info": "INFORMAZIONI",
+    "contact.title": "Parliamo della tua esigenza.", "contact.copy": "Chiamaci, scrivici su WhatsApp o via email, oppure vieni a trovarci a Pravisdomini.",
+    "contact.addressLabel": "INDIRIZZO", "contact.primary": "NUMERO PRINCIPALE E WHATSAPP", "contact.info": "INFORMAZIONI", "contact.email": "EMAIL",
     "contact.whatsapp": "Scrivici su WhatsApp", "contact.call": "Chiama ora", "contact.directions": "Apri in Google Maps", "footer.copy": "Servizi automotive e trasporto a Pravisdomini."
   },
   en: {
@@ -59,8 +59,8 @@ const translations = {
     "faq.oneQ": "Which services does Newton offer?", "faq.oneA": "Rental, vehicle sales, freight transport, roadside assistance, workshop, spare parts and tyre service.",
     "faq.twoQ": "How can I request information?", "faq.twoA": "Call our primary number or message us directly on WhatsApp.",
     "faq.threeQ": "Where are you located?", "faq.threeA": "We are at Via Isonzo 65, 33076 Pravisdomini (PN), Italy.",
-    "contact.title": "Let’s talk about what you need.", "contact.copy": "Call us, message us on WhatsApp or visit us in Pravisdomini.",
-    "contact.addressLabel": "ADDRESS", "contact.primary": "PRIMARY NUMBER & WHATSAPP", "contact.info": "INFORMATION",
+    "contact.title": "Let’s talk about what you need.", "contact.copy": "Call us, message us on WhatsApp or email us, or visit us in Pravisdomini.",
+    "contact.addressLabel": "ADDRESS", "contact.primary": "PRIMARY NUMBER & WHATSAPP", "contact.info": "INFORMATION", "contact.email": "EMAIL",
     "contact.whatsapp": "Message us on WhatsApp", "contact.call": "Call now", "contact.directions": "Get directions", "footer.copy": "Automotive and transport services in Pravisdomini."
   }
 };
