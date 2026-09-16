@@ -75,6 +75,11 @@ function renderService() {
   document.getElementById("service-lead").textContent = content.lead;
   document.getElementById("detail-title").textContent = language === "it" ? "Come possiamo aiutarti" : "How we can help";
   document.getElementById("service-description").textContent = content.description;
+  const emailSubject = language === "it" ? `Richiesta informazioni: ${content.title}` : `Information request: ${content.title}`;
+  const emailBody = language === "it"
+    ? `Buongiorno Newton Autoservice,\n\nvorrei ricevere informazioni sul servizio ${content.title}.\n\nGrazie.`
+    : `Hello Newton Autoservice,\n\nI would like more information about ${content.title}.\n\nThank you.`;
+  document.getElementById("service-email").href = `mailto:info@newtonvts.it?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
   document.getElementById("service-features").replaceChildren(...content.features.map((feature) => {
     const item = document.createElement("li"); item.textContent = feature; return item;
   }));
