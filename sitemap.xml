@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://newtonvts.it/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://newtonvts.it/servizio.html?tipo=rental</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://newtonvts.it/servizio.html?tipo=sales</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://newtonvts.it/servizio.html?tipo=transport</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://newtonvts.it/servizio.html?tipo=roadside</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://newtonvts.it/servizio.html?tipo=workshop</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://newtonvts.it/servizio.html?tipo=parts</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://newtonvts.it/servizio.html?tipo=tyres</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://newtonvts.it/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://newtonvts.it/noleggio/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://newtonvts.it/vendita-auto/</loc><lastmod>2026-09-18</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://newtonvts.it/trasporto-merci/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://newtonvts.it/soccorso-stradale/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://newtonvts.it/autofficina/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://newtonvts.it/autoricambi/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://newtonvts.it/gommista/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://newtonvts.it/en/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://newtonvts.it/en/noleggio/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://newtonvts.it/en/vendita-auto/</loc><lastmod>2026-09-18</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://newtonvts.it/en/trasporto-merci/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://newtonvts.it/en/soccorso-stradale/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://newtonvts.it/en/autofficina/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://newtonvts.it/en/autoricambi/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://newtonvts.it/en/gommista/</loc><lastmod>2026-09-18</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>

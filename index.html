@@ -15,6 +15,9 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="robots" content="index,follow,max-image-preview:large">
   <link rel="canonical" href="https://newtonvts.it/">
+  <link rel="alternate" hreflang="it" href="https://newtonvts.it/">
+  <link rel="alternate" hreflang="en" href="https://newtonvts.it/en/">
+  <link rel="alternate" hreflang="x-default" href="https://newtonvts.it/">
   <link rel="icon" href="assets/newton-mark.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,13 +25,13 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="enhancements.css">
   <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"AutomotiveBusiness","name":"Newton Autoservice","url":"https://newtonvts.it/","telephone":"+394341801744","email":"info@newtonvts.it","address":{"@type":"PostalAddress","streetAddress":"Via Isonzo, 65","postalCode":"33076","addressLocality":"Pravisdomini","addressRegion":"PN","addressCountry":"IT"},"contactPoint":[{"@type":"ContactPoint","telephone":"+394341801744","email":"info@newtonvts.it","contactType":"customer service"},{"@type":"ContactPoint","telephone":"+393894449808","contactType":"information"}]}
+  {"@context":"https://schema.org","@type":"AutomotiveBusiness","name":"Newton Autoservice","url":"https://newtonvts.it/","image":"https://images.unsplash.com/photo-1562141961-b5d1c7b085ac?auto=format&fit=crop&w=1600&q=85","telephone":"+394341801744","email":"info@newtonvts.it","hasMap":"https://www.google.com/maps/search/?api=1&query=Via+Isonzo+65%2C+33076+Pravisdomini+PN","areaServed":{"@type":"AdministrativeArea","name":"Pravisdomini, Pordenone"},"address":{"@type":"PostalAddress","streetAddress":"Via Isonzo, 65","postalCode":"33076","addressLocality":"Pravisdomini","addressRegion":"PN","addressCountry":"IT"},"contactPoint":[{"@type":"ContactPoint","telephone":"+394341801744","email":"info@newtonvts.it","contactType":"customer service","availableLanguage":["it","en"]},{"@type":"ContactPoint","telephone":"+393894449808","contactType":"information","availableLanguage":["it","en"]}]}
   </script>
 </head>
 <body id="top">
   <a class="skip-link" href="#main">Vai al contenuto</a>
   <header class="site-header">
-    <a class="brand" href="#top" aria-label="Newton Autoservice home">
+    <a class="brand" href="./" aria-label="Newton Autoservice home">
       <img src="assets/newton-mark.png" alt="Logo Newton Autoservice" width="70" height="66">
       <span><strong>Newton</strong><small>AUTOSERVICE</small></span>
     </a>
@@ -39,9 +42,9 @@
       <a href="#contatti" data-i18n="nav.contact">Contatti</a>
     </nav>
     <div class="header-actions">
-      <div class="language-switch" role="group" aria-label="Seleziona lingua">
-        <button type="button" data-lang="it" aria-label="Italiano">IT</button>
-        <button type="button" data-lang="en" aria-label="English">EN</button>
+      <div class="language-switch" aria-label="Seleziona lingua">
+        <a class="active" href="./" lang="it" hreflang="it" aria-label="Italiano">IT</a>
+        <a href="en/" lang="en" hreflang="en" aria-label="English">EN</a>
       </div>
       <a class="button button-gold header-cta" href="#contatti" data-i18n="nav.cta">Contattaci</a>
     </div>
@@ -74,13 +77,13 @@
         <p data-i18n="services.intro">Sette specialità, un solo partner. Soluzioni complete per te e per la tua automobile.</p>
       </div>
       <div class="service-grid">
-        <a class="service-card" href="servizio.html?tipo=rental" style="--image:url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">01</span><span class="service-name" data-i18n="service.rental">Noleggio</span><span class="service-summary" data-i18n="service.rentalCopy">Mobilità flessibile per privati e imprese.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
-        <a class="service-card" href="servizio.html?tipo=sales" style="--image:url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">02</span><span class="service-name" data-i18n="service.sales">Vendita auto</span><span class="service-summary" data-i18n="service.salesCopy">Supporto diretto nella scelta del veicolo.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
-        <a class="service-card" href="servizio.html?tipo=transport" style="--image:url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">03</span><span class="service-name" data-i18n="service.transport">Trasporto merci</span><span class="service-summary" data-i18n="service.transportCopy">Soluzioni organizzate per professionisti e imprese.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
-        <a class="service-card" href="servizio.html?tipo=roadside" style="--image:url('https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">04</span><span class="service-name" data-i18n="service.roadside">Soccorso stradale</span><span class="service-summary" data-i18n="service.roadsideCopy">Un contatto diretto quando il viaggio si ferma.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
-        <a class="service-card" href="servizio.html?tipo=workshop" style="--image:url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">05</span><span class="service-name" data-i18n="service.workshop">Autofficina</span><span class="service-summary" data-i18n="service.workshopCopy">Controlli, manutenzione e interventi.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
-        <a class="service-card" href="servizio.html?tipo=parts" style="--image:url('https://images.unsplash.com/photo-1580894908361-967195033215?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">06</span><span class="service-name" data-i18n="service.parts">Autoricambi</span><span class="service-summary" data-i18n="service.partsCopy">Ricambi e componenti per il tuo veicolo.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
-        <a class="service-card" href="servizio.html?tipo=tyres" style="--image:url('https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">07</span><span class="service-name" data-i18n="service.tyres">Gommista</span><span class="service-summary" data-i18n="service.tyresCopy">Pneumatici, aderenza e controllo su strada.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="noleggio/" style="--image:url('https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">01</span><span class="service-name" data-i18n="service.rental">Noleggio</span><span class="service-summary" data-i18n="service.rentalCopy">Mobilità flessibile per privati e imprese.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="vendita-auto/" style="--image:url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">02</span><span class="service-name" data-i18n="service.sales">Vendita auto</span><span class="service-summary" data-i18n="service.salesCopy">Supporto diretto nella scelta del veicolo.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="trasporto-merci/" style="--image:url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">03</span><span class="service-name" data-i18n="service.transport">Trasporto merci</span><span class="service-summary" data-i18n="service.transportCopy">Soluzioni organizzate per professionisti e imprese.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="soccorso-stradale/" style="--image:url('https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">04</span><span class="service-name" data-i18n="service.roadside">Soccorso stradale</span><span class="service-summary" data-i18n="service.roadsideCopy">Un contatto diretto quando il viaggio si ferma.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="autofficina/" style="--image:url('https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">05</span><span class="service-name" data-i18n="service.workshop">Autofficina</span><span class="service-summary" data-i18n="service.workshopCopy">Controlli, manutenzione e interventi.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="autoricambi/" style="--image:url('https://images.unsplash.com/photo-1580894908361-967195033215?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">06</span><span class="service-name" data-i18n="service.parts">Autoricambi</span><span class="service-summary" data-i18n="service.partsCopy">Ricambi e componenti per il tuo veicolo.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
+        <a class="service-card" href="gommista/" style="--image:url('https://images.unsplash.com/photo-1578844251758-2f71da64c96f?auto=format&fit=crop&w=1200&q=85')"><span class="service-no">07</span><span class="service-name" data-i18n="service.tyres">Gommista</span><span class="service-summary" data-i18n="service.tyresCopy">Pneumatici, aderenza e controllo su strada.</span><span class="service-button"><span data-i18n="service.open">Scopri il servizio</span><b>↗</b></span></a>
         <a class="service-cta" href="#contatti"><span>↗</span><strong data-i18n="services.cta">Parliamo della tua esigenza</strong></a>
       </div>
     </section>
@@ -152,7 +155,7 @@
   </main>
 
   <footer class="site-footer">
-    <a class="brand footer-brand" href="#top"><img src="assets/newton-mark.png" alt="" width="54" height="51"><span><strong>Newton</strong><small>AUTOSERVICE</small></span></a>
+    <a class="brand footer-brand" href="./"><img src="assets/newton-mark.png" alt="" width="54" height="51"><span><strong>Newton</strong><small>AUTOSERVICE</small></span></a>
     <p data-i18n="footer.copy">Servizi automotive e trasporto a Pravisdomini.</p>
     <p>© <span id="year"></span> Newton Autoservice</p>
   </footer>
