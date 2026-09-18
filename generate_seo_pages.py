@@ -237,6 +237,7 @@ def service_page(slug, lang):
   <a class="floating-whatsapp" href="https://wa.me/394341801744" target="_blank" rel="noopener" aria-label="WhatsApp Newton">◉</a>
   <nav class="mobile-contact-dock" aria-label="Quick contacts"><a href="tel:+394341801744"><span>☎</span><span>{labels['call']}</span></a><a href="https://wa.me/394341801744" target="_blank" rel="noopener"><span>◉</span><span>WhatsApp</span></a></nav>
   <script src="{depth}service.js"></script>
+  <script src="{depth}contact.js"></script>
 </body>
 </html>
 '''
@@ -326,6 +327,8 @@ def generate_english_home():
     output_dir = ROOT / "en"
     output_dir.mkdir(exist_ok=True)
     output = "<!doctype html>\n" + etree.tostring(document, method="html", encoding="unicode", pretty_print=True)
+    for original, translated in {"Vai al contenuto": "Skip to content", "Navigazione principale": "Main navigation", "Seleziona lingua": "Select language", "Punti di forza": "Key benefits", "Centro automotive Newton": "Newton automotive centre", "Newton Autoservice a Pravisdomini": "Newton Autoservice in Pravisdomini"}.items():
+        output = output.replace(original, translated)
     (output_dir / "index.html").write_text(output, encoding="utf-8")
 
 
