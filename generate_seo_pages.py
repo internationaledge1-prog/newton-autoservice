@@ -155,8 +155,8 @@ SERVICES = {
 }
 
 LABELS = {
-    "it": {"services": "Servizi", "about": "Chi siamo", "contact": "Contatti", "all": "Tutti i servizi", "service": "IL SERVIZIO", "help": "Come possiamo aiutarti", "gallery": "GALLERIA", "need": "Hai bisogno di questo servizio?", "talk": "Parla direttamente con Newton Autoservice. Ti daremo tutte le informazioni necessarie.", "whatsapp": "Scrivici su WhatsApp", "call": "Chiama ora", "faq": "Domande frequenti", "other": "Scopri anche", "footer": "Servizi automotive e trasporto a Pravisdomini.", "skip": "Vai al contenuto"},
-    "en": {"services": "Services", "about": "About us", "contact": "Contact", "all": "All services", "service": "THE SERVICE", "help": "How we can help", "gallery": "GALLERY", "need": "Do you need this service?", "talk": "Speak directly with Newton Autoservice. We will give you all the information you need.", "whatsapp": "Message us on WhatsApp", "call": "Call now", "faq": "Frequently asked questions", "other": "Discover more", "footer": "Automotive and transport services in Pravisdomini.", "skip": "Skip to content"},
+    "it": {"services": "Servizi", "about": "Chi siamo", "contact": "Contatti", "all": "Tutti i servizi", "service": "IL SERVIZIO", "help": "Come possiamo aiutarti", "gallery": "GALLERIA", "need": "Hai bisogno di questo servizio?", "talk": "Parla direttamente con Newton Autoservice. Ti daremo tutte le informazioni necessarie.", "whatsapp": "Scrivici su WhatsApp", "call": "Chiama ora", "faq": "Domande frequenti", "other": "Scopri anche", "footer": "Servizi automotive e trasporto a Pravisdomini.", "since": "· Dal 2023", "legal": "Sede legale", "operational": "Sede operativa", "skip": "Vai al contenuto"},
+    "en": {"services": "Services", "about": "About us", "contact": "Contact", "all": "All services", "service": "THE SERVICE", "help": "How we can help", "gallery": "GALLERY", "need": "Do you need this service?", "talk": "Speak directly with Newton Autoservice. We will give you all the information you need.", "whatsapp": "Message us on WhatsApp", "call": "Call now", "faq": "Frequently asked questions", "other": "Discover more", "footer": "Automotive and transport services in Pravisdomini.", "since": "· Established in 2023", "legal": "Registered office", "operational": "Operational office", "skip": "Skip to content"},
 }
 
 
@@ -210,7 +210,7 @@ def service_page(slug, lang):
   <link rel="stylesheet" href="{depth}styles.css">
   <link rel="stylesheet" href="{depth}enhancements.css">
   <script type="application/ld+json">
-  {{"@context":"https://schema.org","@type":"Service","name":{json_string(content['title'])},"description":{json_string(content['meta'])},"url":"{canonical}","image":"{img_url(service['image'], 1600)}","areaServed":{{"@type":"AdministrativeArea","name":"Pravisdomini, Pordenone"}},"provider":{{"@type":"AutomotiveBusiness","name":"Newton Autoservice","url":"https://newtonvts.it/","telephone":"+394341801744","email":"info@newtonvts.it","address":{{"@type":"PostalAddress","streetAddress":"Via Isonzo, 65","postalCode":"33076","addressLocality":"Pravisdomini","addressRegion":"PN","addressCountry":"IT"}}}}}}
+  {{"@context":"https://schema.org","@type":"Service","name":{json_string(content['title'])},"description":{json_string(content['meta'])},"url":"{canonical}","image":"{img_url(service['image'], 1600)}","areaServed":{{"@type":"AdministrativeArea","name":"Pravisdomini, Pordenone"}},"provider":{{"@type":"AutomotiveBusiness","name":"Newton Autoservice","legalName":"NEWTON SRL","vatID":"IT04815540275","foundingDate":"2023","url":"https://newtonvts.it/","telephone":"+394341801744","email":"info@newtonvts.it","address":{{"@type":"PostalAddress","streetAddress":"Via Isonzo, 65","postalCode":"33076","addressLocality":"Pravisdomini","addressRegion":"PN","addressCountry":"IT"}}}}}}
   </script>
   <script type="application/ld+json">{{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{faq_schema}]}}</script>
 </head>
@@ -233,7 +233,7 @@ def service_page(slug, lang):
     <section class="detail-contact"><div><h2>{labels['need']}</h2><p>{labels['talk']}</p></div><div class="detail-contact-actions"><a class="button whatsapp" href="https://wa.me/394341801744" target="_blank" rel="noopener">{labels['whatsapp']}</a><a class="button" href="tel:+394341801744">{labels['call']}</a><a class="button" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=info%40newtonvts.it&amp;su={escape(email_subject)}&amp;body={email_body}" target="_blank" rel="noopener"><span aria-hidden="true">✉</span><span>info@newtonvts.it</span></a></div></section>
     <section class="section more-services"><p class="kicker">{labels['services'].upper()}</p><h2>{labels['other']}</h2><div class="more-links">{others}</div></section>
   </main>
-  <footer class="site-footer"><a class="brand footer-brand" href="{home}"><img src="{depth}assets/newton-mark.png" alt="" width="54" height="51"><span><strong>Newton</strong><small>AUTOSERVICE</small></span></a><p>{labels['footer']}</p><p>© <span id="year"></span> Newton Autoservice</p></footer>
+  <footer class="site-footer"><a class="brand footer-brand" href="{home}"><img src="{depth}assets/newton-mark.png" alt="" width="54" height="51"><span><strong>Newton</strong><small>AUTOSERVICE</small></span></a><div class="footer-company"><strong>NEWTON SRL <span>{labels['since']}</span></strong><p><span>{labels['legal']}</span>: Via Giobatta Dall’Armi 41/2, 30027 San Donà di Piave (VE)</p><p><span>{labels['operational']}</span>: Via Isonzo 65, 33076 Pravisdomini (PN)</p><p>P. IVA 04815540275 · REA Venezia n. 453420</p></div><div class="footer-meta"><p>{labels['footer']}</p><p>© <span id="year"></span> Newton Autoservice</p></div></footer>
   <a class="floating-whatsapp" href="https://wa.me/394341801744" target="_blank" rel="noopener" aria-label="WhatsApp Newton">◉</a>
   <nav class="mobile-contact-dock" aria-label="Quick contacts"><a href="tel:+394341801744"><span>☎</span><span>{labels['call']}</span></a><a href="https://wa.me/394341801744" target="_blank" rel="noopener"><span>◉</span><span>WhatsApp</span></a></nav>
   <script src="{depth}service.js"></script>
@@ -289,6 +289,7 @@ HOME_EN = {
     "contact.addressLabel": "ADDRESS", "contact.primary": "PRIMARY NUMBER & WHATSAPP", "contact.info": "INFORMATION", "contact.email": "EMAIL",
     "contact.whatsapp": "Message us on WhatsApp", "contact.call": "Call now", "contact.directions": "Get directions",
     "footer.copy": "Automotive and transport services in Pravisdomini.",
+    "footer.since": "· Established in 2023", "footer.legal": "Registered office", "footer.operational": "Operational office",
 }
 
 

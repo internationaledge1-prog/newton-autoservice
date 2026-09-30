@@ -102,3 +102,22 @@
   .map-location-card{position:relative;left:auto;right:auto;bottom:auto;grid-template-columns:auto 1fr;margin:0;border:0;border-top:1px solid var(--line);border-radius:0;background:#111212;box-shadow:none}
   .map-location-card a{grid-column:1/-1;justify-content:center;width:100%}
 }
+
+/* Complete company details in the legal footer */
+.site-footer{
+  grid-template-columns:minmax(220px,.7fr) minmax(420px,1.35fr) minmax(220px,.75fr);
+  align-items:start;
+  gap:48px;
+  padding-top:48px;
+  padding-bottom:48px;
+}
+.footer-company,.footer-meta{display:grid;gap:7px}
+.footer-company>strong{color:#f7f5f0;font-size:16px;letter-spacing:.035em}
+.footer-company>strong span{color:var(--gold2);font-size:13px}
+.footer-company p,.footer-meta p{margin:0;font-size:13px;line-height:1.55}
+.footer-company p span{color:#d8d5cf;font-weight:700}
+.footer-meta{text-align:right}
+@media(max-width:980px){
+  .site-footer{grid-template-columns:1fr;gap:26px;text-align:center}
+  .footer-meta{text-align:center}
+}
